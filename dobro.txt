@@ -1,0 +1,19 @@
+// Disciplina   :
+// Professor   :
+// Descrição   :
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+valor : Real
+dobro : Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Informe o valor")
+leia(valor)
+dobro <- valor * 2
+escreva("Valor atualizado:")
+escreva (dobro)
+
+Fimalgoritmo

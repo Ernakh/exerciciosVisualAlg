@@ -1,0 +1,28 @@
+// Disciplina   :
+// Professor   :
+// Descrição   :
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+codigo : Real
+horas : Real
+valor: Real
+filhos : Real
+salario : Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Informe o código de identificação: ")
+leia(codigo)
+escreva("Informe quantidade de horas: ")
+leia(horas)
+escreva("Informe o valor da hora: ")
+leia(valor)
+escreva("Informe quantos filhos menores de 14 anos: ")
+leia(filhos)
+salario <- (horas * valor) + (filhos * 15)
+escreva("Salario: ")
+escreva (salario)
+
+Fimalgoritmo

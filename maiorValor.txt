@@ -1,0 +1,36 @@
+Var
+
+a : Inteiro
+b : Inteiro
+c : Inteiro
+
+
+maior : Inteiro
+
+
+Inicio
+
+escreval("Digite um valor para A")
+leia(a)
+
+escreval("Digite um valor para B")
+leia(b)
+
+escreval("Digite um valor para C")
+leia(c)
+
+
+maior <- a
+
+se b > maior então
+   maior <- b
+fimse
+
+se c > maior então
+     maior <- c
+fimse
+
+escreva("O maior valor é:")
+escreva(maior)
+
+Fimalgoritmo

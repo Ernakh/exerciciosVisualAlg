@@ -1,0 +1,24 @@
+// Disciplina   :
+// Professor   :
+// Descrição   :
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+a : Real
+b : Real
+aux: Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Informe os valors de A e de B")
+leia(a)
+leia(b)
+aux <- a
+a <-b
+b <- aux
+escreva("------")
+escreva (a)
+escreva (b)
+
+Fimalgoritmo

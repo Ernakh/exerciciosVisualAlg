@@ -1,0 +1,29 @@
+Algoritmo "exercicio3"
+
+Var
+
+   codigo: inteiro
+ salario,vendas,novo: real
+
+Inicio
+
+          novo <- 0
+  escreva("Digite o codigo do vendedor: ")
+   leia(codigo)
+   escreva("Digite salário base: ")
+   leia(salario)
+   escreva("Digite o total de vendas: ")
+   leia(vendas)
+   
+   
+      se (vendas < 501 ) entao
+         novo <- (salario+((vendas/100)*2.5))
+      senao
+           novo <- (salario+((vendas/100)*4))
+       fimse
+   
+   
+   escreva("O ",codigo," tem salario base de ",salario," e o novo salario é ", novo)
+   
+
+Fimalgoritmo

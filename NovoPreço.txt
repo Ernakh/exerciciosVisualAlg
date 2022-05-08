@@ -1,0 +1,26 @@
+Algoritmo "exercicio3"
+
+Var
+
+ m,p,valor:real
+
+Inicio
+
+  escreva("Digite a média mensal de vendas: ")
+   leia(m)
+   escreva("Digite preço do produto: ")
+   leia(p)
+   se (m<500) ou (p<30) entao
+      valor<-(p+((p/100)*10))
+   senao
+      se ((m>=500) e (m<1200)) ou ((p>=30) e (p<80)) entao
+         valor<-(p+((p/100)*15))
+      senao
+         se (m>=1200) ou (p>=80) entao
+            valor<-(p-((p/100)*20))
+         fimse
+      fimse
+   fimse
+   escreva("O novo preço é de",valor,".")
+
+Fimalgoritmo

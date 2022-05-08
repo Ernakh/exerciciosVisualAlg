@@ -1,0 +1,26 @@
+Algoritmo "exercicio2"
+
+Var
+a : Inteiro
+
+dobro : Inteiro
+quadrado : Inteiro
+
+Inicio
+
+escreval("Digite um valor para A")
+leia(a)
+
+
+se a > 0 então
+   dobro <- a * 2
+   escreval("o dobro do valor é:")
+   escreva(dobro)
+senão
+     quadrado <- a * a
+   escreval("o quadrado do valor é:")
+   escreva(quadrado)
+fimse
+
+
+Fimalgoritmo

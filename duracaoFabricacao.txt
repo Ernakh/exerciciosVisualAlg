@@ -1,0 +1,19 @@
+Algoritmo "exercicio7"
+// Disciplina   :
+// Professor   :
+// Descrição   :
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+horas, minutos, segundos, seg : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Digite o tempo de duração da fabricação de um produto expresso em segundos:")
+    leia(segundos)
+    horas<-(segundos div 3600)
+    minutos<-((segundos mod 3600) div 60)
+    seg<-((segundos mod 3600) mod 60)
+    escreva("A duração foi de", horas," horas", minutos ," minutos e", seg ," segundos")
+
+    Fimalgoritmo

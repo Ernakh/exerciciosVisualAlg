@@ -1,0 +1,20 @@
+// Disciplina   :
+// Professor   :
+// Descrição   :
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+venda : Real
+compra : Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Informe o valor de compra")
+leia(compra)
+venda <- (compra + (compra * 0.2) + (compra * 0.45) + (compra * 0.08) )
+escreva("Valor devenda atualizado:")
+escreva (venda)
+
+Fimalgoritmo
+

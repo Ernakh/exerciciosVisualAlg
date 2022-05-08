@@ -1,0 +1,22 @@
+ Algoritmo "exercicio8"
+   // Disciplina   :
+   // Professor   :
+   // Descrição   :
+   // Autor(a)    : 
+   // Data atual  : 22/12/2021
+   Var
+   // Seção de Declarações das variáveis
+      parcela : inteiro
+      compra, entrada : real
+   Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite o valor da compra:")
+       leia(compra)
+       parcela <- Int(compra/3)
+       entrada <- (compra - (parcela *2))
+       escreval ("entrada de ")
+       escreval (entrada)
+       escreval ("2 parcelas de ")
+       escreval (parcela)
+
+       Fimalgoritmo

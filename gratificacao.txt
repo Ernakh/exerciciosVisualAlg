@@ -1,0 +1,43 @@
+
+Var
+
+    horasExtras, horasFaltas, premio, horas : real
+
+Inicio
+
+   escreval("Digite o total de horas extras: ")
+   leia(horasExtras)
+
+   escreval("Digite o total de horas que o funcionário faltou: ")
+   leia(horasFaltas)
+
+   horas <- (horasExtras - ((2/3) * horasFaltas))
+   
+   //escreval(horas)
+
+   se (horas > 24 ) entao
+       premio <- 500
+fimse
+
+   se(horas <= 24) e (horas > 18) entao
+       premio <- 400
+   fimse
+
+    se(horas <= 18) e (horas > 12) entao
+       premio <- 300
+
+   fimse
+
+    se(horas <= 12) e (horas > 6) entao
+       premio <- 200
+
+   fimse
+   
+         se (horas <= 6) então
+       premio <- 100
+   fimse
+
+   escreval("Valor da gratificação é: ", premio)
+
+
+Fimalgoritmo

@@ -1,0 +1,38 @@
+Algoritmo "prova 2"
+// Descrição   : Escrever um algoritmo que leia 25 valores inteiros,
+//positivos, determine o maior valor, o menor valor e
+//calcule a média dos números lidos. Imprimir os resultados.
+// Autor(a)    : Graziela Frainer Knoll
+// Data atual  : 14/02/2022
+var
+numeros: vetor [1..25] de inteiro
+i, maior, menor, soma: inteiro
+media: real
+
+inicio
+
+maior <- 0
+menor <- 99999999
+
+escreval("Digite os 25 numeros: ")
+para i de 1 ate 25 faca
+   leia(numeros[i])
+   soma<- soma + numeros[i]
+   
+   se numeros[i] < menor então
+      menor <- numeros[i]
+   fimse
+   
+   se numeros[i] > maior então
+      maior <- numeros[i]
+   fimse
+
+fimpara
+
+media <- soma/25
+
+escreval("O maior valor é: ",maior)
+escreval("O menor valor é: ",menor)
+escreval("A média dos valores é: ",media)
+
+Fimalgoritmo

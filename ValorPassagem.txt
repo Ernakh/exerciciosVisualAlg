@@ -1,0 +1,51 @@
+Var
+
+destino : Inteiro
+volta: inteiro
+
+passagem : real
+
+
+Inicio
+
+escreval("Digite 1 para Norte, 2 para Nordeste, 3 para Centro-Oeste e 4 para Sul")
+leia(destino)
+
+escreval("Digite 1 para apenas ida e 2 para acrescentar a volta")
+leia(volta)
+
+
+
+se destino = 1 então
+   passagem <- 500
+   se volta = 2 então
+      passagem <- 900
+   fimse
+fimse
+
+se destino = 2 então
+   passagem <- 350
+   se volta = 2 então
+      passagem <- 650
+   fimse
+fimse
+
+se destino = 3 então
+   passagem <- 350
+   se volta = 2 então
+      passagem <- 600
+   fimse
+fimse
+
+se destino = 4 então
+   passagem <- 300
+   se volta = 2 então
+      passagem <- 550
+   fimse
+fimse
+
+
+escreva("O valor resultante é:")
+escreva(passagem)
+
+Fimalgoritmo

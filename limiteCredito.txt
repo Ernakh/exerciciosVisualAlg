@@ -1,0 +1,33 @@
+
+Var
+
+saldo, valor: Real
+
+
+Inicio
+
+Escreval ("Digite o saldo desejado")
+Leia (saldo)
+
+se(saldo >= 0) e (saldo <= 200) então
+   Escreval ("Você não tem crédito para a operação")
+Fimse
+
+Se(saldo >= 201) e (saldo <= 400) então
+   valor <- (saldo*(20/100))
+//   valor <- (saldo*0.2)
+   Escreval ("O seu limite de crédito é:", valor)
+Fimse
+
+Se(saldo >= 401) e (saldo <= 600)então
+   valor <- (saldo * (30/100))
+//   valor <- (saldo * 0.3)
+   Escreval ("O seu limite de crédito é:", valor)
+Fimse
+
+Se (saldo >= 601) então
+   valor <- (saldo * (40/100))
+   Escreval ("O seu limite de crédito é:" , valor)
+Fimse
+
+Fimalgoritmo

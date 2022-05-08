@@ -1,0 +1,147 @@
+Var
+// Seção de Declarações das variáveis
+a : Inteiro
+b : Inteiro
+c : Inteiro
+
+soma : Inteiro
+maior : Inteiro
+menor : Inteiro
+
+Inicio
+
+escreval("Digite um valor para A")
+leia(a)
+
+escreval("Digite um valor para B")
+leia(b)
+
+escreval("Digite um valor para C")
+leia(c)
+
+soma <- a + b + c;
+
+escreva("Soma:")
+escreva(soma)
+
+escreval()
+
+maior <- a
+
+se b > maior então
+   maior <- b
+fimse
+
+se c > maior então
+     maior <- c
+fimse
+
+escreva("O maior valor é:")
+escreva(maior)
+
+
+
+escreval()
+
+menor <- a
+
+se b < menor então
+   menor <- b
+fimse
+
+se c < menor então
+     menor <- c
+fimse
+
+escreva("O menor valor é:")
+escreva(menor)
+
+escreval()
+
+se a < b então
+     se b < c então
+   escreval("Crescente:")
+   escreva(a)
+   escreva(b)
+   escreval(c)
+   
+   escreval("Decrescente:")
+   escreva(c)
+   escreva(b)
+   escreval(a)
+fimse
+fimse
+
+se b < c então
+     se c < a então
+   escreval("Crescente:")
+   escreva(b)
+   escreva(c)
+   escreval(a)
+   
+   escreval("Decrescente:")
+   escreva(a)
+   escreva(c)
+   escreval(b)
+fimse
+fimse
+
+se c < b então
+     se b < a então
+   escreval("Crescente:")
+   escreva(c)
+   escreva(b)
+   escreval(a)
+   
+   escreval("Decrescente:")
+   escreva(a)
+   escreva(b)
+   escreval(c)
+fimse
+fimse
+
+se a < c então
+     se c < b então
+     escreval("Crescente:")
+   escreva(a)
+   escreva(c)
+   escreval(b)
+   
+   escreval("Decrescente:")
+   escreva(b)
+   escreva(c)
+   escreval(c)
+fimse
+fimse
+
+se c < a então
+     se a < b então
+     escreval("Crescente:")
+   escreva(c)
+   escreva(a)
+   escreval(b)
+   
+   escreval("Decrescente:")
+   escreva(b)
+   escreva(a)
+   escreval(c)
+fimse
+fimse
+
+
+se b < a então
+     se a < c então
+     escreval("Crescente:")
+   escreva(b)
+   escreva(a)
+   escreval(c)
+
+   escreval("Decrescente:")
+   escreva(c)
+   escreva(a)
+   escreval(b)
+fimse
+fimse
+
+
+Fimalgoritmo

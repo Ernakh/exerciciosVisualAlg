@@ -1,0 +1,27 @@
+Algoritmo "exercicio1"
+// Disciplina   :
+// Professor   :
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : 
+// Data atual  : 22/12/2021
+Var
+// Seção de Declarações das variáveis
+v1 : Real
+v2 : Real
+v3 : Real
+soma : Real
+resultado : Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Informe 3 valores")
+leia(v1)
+leia(v2)
+leia(v3)
+soma <- v1 + v2 + v3
+resultado <- soma * 2
+resultado <- resultado / 4
+escreva(soma)
+escreva (resultado)
+
+Fimalgoritmo
